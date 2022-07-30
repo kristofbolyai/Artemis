@@ -22,8 +22,6 @@ jobs:
           distribution: "temurin"
           java-version: 17
           cache: "gradle"
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v3.4.1
       - name: 'Qodana Scan'
         id: qodana
         uses: JetBrains/qodana-action@v2022.1.1
@@ -36,8 +34,6 @@ jobs:
           REPO: ${{ github.repository }}
           SUMMARY_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          npm install @security-alert/sarif-to-comment
-          npx @security-alert/sarif-to-comment --token "${{ secrets.GITHUB_TOKEN }}" --comment-url "https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }}" --sarifContentOwner "owner" --sarifContentRepo "repo" --sarifContentBranch "master" "${{ runner.temp }}/qodana/results/qodana.sarif.json"
           curl \
             -X POST \
             -H "Accept: application/vnd.github.v3+json" \
