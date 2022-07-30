@@ -22,6 +22,8 @@ jobs:
           cache: "gradle"
       - name: 'Qodana Scan'
         uses: JetBrains/qodana-action@v2022.1.1
+        run: |
+          echo "testcoverage=(cat $GITHUB_STEP_SUMMARY)" >> $GITHUB_ENV
       - uses: github/codeql-action/upload-sarif@v2
         with:
           sarif_file: ${{ runner.temp }}/qodana/results/qodana.sarif.json
@@ -31,10 +33,9 @@ jobs:
           REPO: ${{ github.repository }}
           SUMMARY_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          TESTCOVERAGE = $(cat $GITHUB_STEP_SUMMARY)
           curl \
             -X POST \
             -H "Accept: application/vnd.github.v3+json" \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             https://api.github.com/repos/$REPO/issues/$PR_NUMBER/comments \
-            -d '{"body":"# Qodana code review\n'$TESTCOVERAGE'\nSee more at: '$SUMMARY_URL'\n"}'
+            -d '{"body":"# Qodana code review\n'${{ env.testcoverage }}'\nSee more at: '$SUMMARY_URL'\n"}'
