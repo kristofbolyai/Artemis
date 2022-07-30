@@ -1,0 +1,1461 @@
+{
+  "gradleJvm": "#USE_PROJECT_JDK",
+  "libraries": [
+    {
+      "ideaName": "Gradle: net.fabricmc:tiny-mappings-parser:0.3.0+build.17",
+      "gradleName": "net.fabricmc:tiny-mappings-parser:0.3.0+build.17",
+      "unresolved": false,
+      "groupId": "net.fabricmc",
+      "artifactId": "tiny-mappings-parser",
+      "version": "0.3.0+build.17"
+    },
+    {
+      "ideaName": "Gradle: net.fabricmc:sponge-mixin:0.11.4+mixin.0.8.5",
+      "gradleName": "net.fabricmc:sponge-mixin:0.11.4+mixin.0.8.5",
+      "unresolved": false,
+      "groupId": "net.fabricmc",
+      "artifactId": "sponge-mixin",
+      "version": "0.11.4+mixin.0.8.5"
+    },
+    {
+      "ideaName": "Gradle: net.fabricmc:tiny-remapper:0.8.2",
+      "gradleName": "net.fabricmc:tiny-remapper:0.8.2",
+      "unresolved": false,
+      "groupId": "net.fabricmc",
+      "artifactId": "tiny-remapper",
+      "version": "0.8.2"
+    },
+    {
+      "ideaName": "Gradle: net.fabricmc:access-widener:2.1.0",
+      "gradleName": "net.fabricmc:access-widener:2.1.0",
+      "unresolved": false,
+      "groupId": "net.fabricmc",
+      "artifactId": "access-widener",
+      "version": "2.1.0"
+    },
+    {
+      "ideaName": "Gradle: org.ow2.asm:asm:9.3",
+      "gradleName": "org.ow2.asm:asm:9.3",
+      "unresolved": false,
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm",
+      "version": "9.3"
+    },
+    {
+      "ideaName": "Gradle: org.ow2.asm:asm-analysis:9.3",
+      "gradleName": "org.ow2.asm:asm-analysis:9.3",
+      "unresolved": false,
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm-analysis",
+      "version": "9.3"
+    },
+    {
+      "ideaName": "Gradle: org.ow2.asm:asm-commons:9.3",
+      "gradleName": "org.ow2.asm:asm-commons:9.3",
+      "unresolved": false,
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm-commons",
+      "version": "9.3"
+    },
+    {
+      "ideaName": "Gradle: org.ow2.asm:asm-tree:9.3",
+      "gradleName": "org.ow2.asm:asm-tree:9.3",
+      "unresolved": false,
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm-tree",
+      "version": "9.3"
+    },
+    {
+      "ideaName": "Gradle: org.ow2.asm:asm-util:9.3",
+      "gradleName": "org.ow2.asm:asm-util:9.3",
+      "unresolved": false,
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm-util",
+      "version": "9.3"
+    },
+    {
+      "ideaName": "Gradle: com.mojang:blocklist:1.0.10",
+      "gradleName": "com.mojang:blocklist:1.0.10",
+      "unresolved": false,
+      "groupId": "com.mojang",
+      "artifactId": "blocklist",
+      "version": "1.0.10"
+    },
+    {
+      "ideaName": "Gradle: com.mojang:patchy:2.2.10",
+      "gradleName": "com.mojang:patchy:2.2.10",
+      "unresolved": false,
+      "groupId": "com.mojang",
+      "artifactId": "patchy",
+      "version": "2.2.10"
+    },
+    {
+      "ideaName": "Gradle: com.ibm.icu:icu4j:70.1",
+      "gradleName": "com.ibm.icu:icu4j:70.1",
+      "unresolved": false,
+      "groupId": "com.ibm.icu",
+      "artifactId": "icu4j",
+      "version": "70.1"
+    },
+    {
+      "ideaName": "Gradle: org.apache.httpcomponents:httpclient:4.5.13",
+      "gradleName": "org.apache.httpcomponents:httpclient:4.5.13",
+      "unresolved": false,
+      "groupId": "org.apache.httpcomponents",
+      "artifactId": "httpclient",
+      "version": "4.5.13"
+    },
+    {
+      "ideaName": "Gradle: commons-codec:commons-codec:1.15",
+      "gradleName": "commons-codec:commons-codec:1.15",
+      "unresolved": false,
+      "groupId": "commons-codec",
+      "artifactId": "commons-codec",
+      "version": "1.15"
+    },
+    {
+      "ideaName": "Gradle: org.apache.commons:commons-compress:1.21",
+      "gradleName": "org.apache.commons:commons-compress:1.21",
+      "unresolved": false,
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-compress",
+      "version": "1.21"
+    },
+    {
+      "ideaName": "Gradle: commons-logging:commons-logging:1.2",
+      "gradleName": "commons-logging:commons-logging:1.2",
+      "unresolved": false,
+      "groupId": "commons-logging",
+      "artifactId": "commons-logging",
+      "version": "1.2"
+    },
+    {
+      "ideaName": "Gradle: org.apache.httpcomponents:httpcore:4.4.14",
+      "gradleName": "org.apache.httpcomponents:httpcore:4.4.14",
+      "unresolved": false,
+      "groupId": "org.apache.httpcomponents",
+      "artifactId": "httpcore",
+      "version": "4.4.14"
+    },
+    {
+      "ideaName": "Gradle: org.lwjgl:lwjgl-jemalloc:3.2.2",
+      "gradleName": "org.lwjgl:lwjgl-jemalloc:3.2.2",
+      "unresolved": false,
+      "groupId": "org.lwjgl",
+      "artifactId": "lwjgl-jemalloc",
+      "version": "3.2.2"
+    },
+    {
+      "ideaName": "Gradle: org.lwjgl:lwjgl-openal:3.2.2",
+      "gradleName": "org.lwjgl:lwjgl-openal:3.2.2",
+      "unresolved": false,
+      "groupId": "org.lwjgl",
+      "artifactId": "lwjgl-openal",
+      "version": "3.2.2"
+    },
+    {
+      "ideaName": "Gradle: org.lwjgl:lwjgl-opengl:3.2.2",
+      "gradleName": "org.lwjgl:lwjgl-opengl:3.2.2",
+      "unresolved": false,
+      "groupId": "org.lwjgl",
+      "artifactId": "lwjgl-opengl",
+      "version": "3.2.2"
+    },
+    {
+      "ideaName": "Gradle: org.lwjgl:lwjgl-glfw:3.2.2",
+      "gradleName": "org.lwjgl:lwjgl-glfw:3.2.2",
+      "unresolved": false,
+      "groupId": "org.lwjgl",
+      "artifactId": "lwjgl-glfw",
+      "version": "3.2.2"
+    },
+    {
+      "ideaName": "Gradle: org.lwjgl:lwjgl-stb:3.2.2",
+      "gradleName": "org.lwjgl:lwjgl-stb:3.2.2",
+      "unresolved": false,
+      "groupId": "org.lwjgl",
+      "artifactId": "lwjgl-stb",
+      "version": "3.2.2"
+    },
+    {
+      "ideaName": "Gradle: org.lwjgl:lwjgl-tinyfd:3.2.2",
+      "gradleName": "org.lwjgl:lwjgl-tinyfd:3.2.2",
+      "unresolved": false,
+      "groupId": "org.lwjgl",
+      "artifactId": "lwjgl-tinyfd",
+      "version": "3.2.2"
+    },
+    {
+      "ideaName": "Gradle: org.lwjgl:lwjgl:3.2.2",
+      "gradleName": "org.lwjgl:lwjgl:3.2.2",
+      "unresolved": false,
+      "groupId": "org.lwjgl",
+      "artifactId": "lwjgl",
+      "version": "3.2.2"
+    },
+    {
+      "ideaName": "Gradle: com.mojang:text2speech:1.12.4",
+      "gradleName": "com.mojang:text2speech:1.12.4",
+      "unresolved": false,
+      "groupId": "com.mojang",
+      "artifactId": "text2speech",
+      "version": "1.12.4"
+    },
+    {
+      "ideaName": "Gradle: net.minecraft:minecraft-project-@fabric-merged-named:1.18.2/loom.mappings.1_18_2.layered+hash.233762380-v2",
+      "gradleName": "net.minecraft:minecraft-project-@fabric-merged-named:1.18.2/loom.mappings.1_18_2.layered+hash.233762380-v2",
+      "unresolved": false,
+      "groupId": "net.minecraft",
+      "artifactId": "minecraft-project-@fabric-merged-named",
+      "version": "1.18.2/loom.mappings.1_18_2.layered+hash.233762380-v2"
+    },
+    {
+      "ideaName": "Gradle: com.mojang:logging:1.0.0",
+      "gradleName": "com.mojang:logging:1.0.0",
+      "unresolved": false,
+      "groupId": "com.mojang",
+      "artifactId": "logging",
+      "version": "1.0.0"
+    },
+    {
+      "ideaName": "Gradle: com.github.oshi:oshi-core:5.8.5",
+      "gradleName": "com.github.oshi:oshi-core:5.8.5",
+      "unresolved": false,
+      "groupId": "com.github.oshi",
+      "artifactId": "oshi-core",
+      "version": "5.8.5"
+    },
+    {
+      "ideaName": "Gradle: net.java.dev.jna:jna-platform:5.10.0",
+      "gradleName": "net.java.dev.jna:jna-platform:5.10.0",
+      "unresolved": false,
+      "groupId": "net.java.dev.jna",
+      "artifactId": "jna-platform",
+      "version": "5.10.0"
+    },
+    {
+      "ideaName": "Gradle: net.java.dev.jna:jna:5.10.0",
+      "gradleName": "net.java.dev.jna:jna:5.10.0",
+      "unresolved": false,
+      "groupId": "net.java.dev.jna",
+      "artifactId": "jna",
+      "version": "5.10.0"
+    },
+    {
+      "ideaName": "Gradle: org.apache.logging.log4j:log4j-slf4j18-impl:2.17.0",
+      "gradleName": "org.apache.logging.log4j:log4j-slf4j18-impl:2.17.0",
+      "unresolved": false,
+      "groupId": "org.apache.logging.log4j",
+      "artifactId": "log4j-slf4j18-impl",
+      "version": "2.17.0"
+    },
+    {
+      "ideaName": "Gradle: com.mojang:datafixerupper:4.1.27",
+      "gradleName": "com.mojang:datafixerupper:4.1.27",
+      "unresolved": false,
+      "groupId": "com.mojang",
+      "artifactId": "datafixerupper",
+      "version": "4.1.27"
+    },
+    {
+      "ideaName": "Gradle: org.slf4j:slf4j-api:1.8.0-beta4",
+      "gradleName": "org.slf4j:slf4j-api:1.8.0-beta4",
+      "unresolved": false,
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-api",
+      "version": "1.8.0-beta4"
+    },
+    {
+      "ideaName": "Gradle: com.mojang:javabridge:1.2.24",
+      "gradleName": "com.mojang:javabridge:1.2.24",
+      "unresolved": false,
+      "groupId": "com.mojang",
+      "artifactId": "javabridge",
+      "version": "1.2.24"
+    },
+    {
+      "ideaName": "Gradle: net.sf.jopt-simple:jopt-simple:5.0.4",
+      "gradleName": "net.sf.jopt-simple:jopt-simple:5.0.4",
+      "unresolved": false,
+      "groupId": "net.sf.jopt-simple",
+      "artifactId": "jopt-simple",
+      "version": "5.0.4"
+    },
+    {
+      "ideaName": "Gradle: io.netty:netty-all:4.1.68.Final",
+      "gradleName": "io.netty:netty-all:4.1.68.Final",
+      "unresolved": false,
+      "groupId": "io.netty",
+      "artifactId": "netty-all",
+      "version": "4.1.68.Final"
+    },
+    {
+      "ideaName": "Gradle: com.google.guava:guava:31.0.1-jre",
+      "gradleName": "com.google.guava:guava:31.0.1-jre",
+      "unresolved": false,
+      "groupId": "com.google.guava",
+      "artifactId": "guava",
+      "version": "31.0.1-jre"
+    },
+    {
+      "ideaName": "Gradle: com.google.guava:failureaccess:1.0.1",
+      "gradleName": "com.google.guava:failureaccess:1.0.1",
+      "unresolved": false,
+      "groupId": "com.google.guava",
+      "artifactId": "failureaccess",
+      "version": "1.0.1"
+    },
+    {
+      "ideaName": "Gradle: org.apache.commons:commons-lang3:3.12.0",
+      "gradleName": "org.apache.commons:commons-lang3:3.12.0",
+      "unresolved": false,
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-lang3",
+      "version": "3.12.0"
+    },
+    {
+      "ideaName": "Gradle: commons-io:commons-io:2.11.0",
+      "gradleName": "commons-io:commons-io:2.11.0",
+      "unresolved": false,
+      "groupId": "commons-io",
+      "artifactId": "commons-io",
+      "version": "2.11.0"
+    },
+    {
+      "ideaName": "Gradle: com.mojang:brigadier:1.0.18",
+      "gradleName": "com.mojang:brigadier:1.0.18",
+      "unresolved": false,
+      "groupId": "com.mojang",
+      "artifactId": "brigadier",
+      "version": "1.0.18"
+    },
+    {
+      "ideaName": "Gradle: com.google.code.gson:gson:2.8.9",
+      "gradleName": "com.google.code.gson:gson:2.8.9",
+      "unresolved": false,
+      "groupId": "com.google.code.gson",
+      "artifactId": "gson",
+      "version": "2.8.9"
+    },
+    {
+      "ideaName": "Gradle: com.mojang:authlib:3.3.39",
+      "gradleName": "com.mojang:authlib:3.3.39",
+      "unresolved": false,
+      "groupId": "com.mojang",
+      "artifactId": "authlib",
+      "version": "3.3.39"
+    },
+    {
+      "ideaName": "Gradle: it.unimi.dsi:fastutil:8.5.6",
+      "gradleName": "it.unimi.dsi:fastutil:8.5.6",
+      "unresolved": false,
+      "groupId": "it.unimi.dsi",
+      "artifactId": "fastutil",
+      "version": "8.5.6"
+    },
+    {
+      "ideaName": "Gradle: org.apache.logging.log4j:log4j-core:2.17.0",
+      "gradleName": "org.apache.logging.log4j:log4j-core:2.17.0",
+      "unresolved": false,
+      "groupId": "org.apache.logging.log4j",
+      "artifactId": "log4j-core",
+      "version": "2.17.0"
+    },
+    {
+      "ideaName": "Gradle: org.apache.logging.log4j:log4j-api:2.17.0",
+      "gradleName": "org.apache.logging.log4j:log4j-api:2.17.0",
+      "unresolved": false,
+      "groupId": "org.apache.logging.log4j",
+      "artifactId": "log4j-api",
+      "version": "2.17.0"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2.net.fabricmc:fabric-loader:0.14.8",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2.net.fabricmc:fabric-loader:0.14.8",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2.net.fabricmc",
+      "artifactId": "fabric-loader",
+      "version": "0.14.8"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2.net.fabricmc.fabric-api:fabric-resource-loader-v0:0.5.2+446e059560",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2.net.fabricmc.fabric-api:fabric-resource-loader-v0:0.5.2+446e059560",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2.net.fabricmc.fabric-api",
+      "artifactId": "fabric-resource-loader-v0",
+      "version": "0.5.2+446e059560"
+    },
+    {
+      "ideaName": "Gradle: net.minecraftforge:eventbus:5.0.7",
+      "gradleName": "net.minecraftforge:eventbus:5.0.7",
+      "unresolved": false,
+      "groupId": "net.minecraftforge",
+      "artifactId": "eventbus",
+      "version": "5.0.7"
+    },
+    {
+      "ideaName": "Gradle: org.jetbrains:annotations:23.0.0",
+      "gradleName": "org.jetbrains:annotations:23.0.0",
+      "unresolved": false,
+      "groupId": "org.jetbrains",
+      "artifactId": "annotations",
+      "version": "23.0.0"
+    },
+    {
+      "ideaName": "Gradle: ca.weblite:java-objc-bridge:1.0.0",
+      "gradleName": "ca.weblite:java-objc-bridge:1.0.0",
+      "unresolved": false,
+      "groupId": "ca.weblite",
+      "artifactId": "java-objc-bridge",
+      "version": "1.0.0"
+    },
+    {
+      "ideaName": "Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+      "gradleName": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+      "unresolved": false,
+      "groupId": "com.google.guava",
+      "artifactId": "listenablefuture",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava"
+    },
+    {
+      "ideaName": "Gradle: com.google.code.findbugs:jsr305:3.0.2",
+      "gradleName": "com.google.code.findbugs:jsr305:3.0.2",
+      "unresolved": false,
+      "groupId": "com.google.code.findbugs",
+      "artifactId": "jsr305",
+      "version": "3.0.2"
+    },
+    {
+      "ideaName": "Gradle: org.checkerframework:checker-qual:3.12.0",
+      "gradleName": "org.checkerframework:checker-qual:3.12.0",
+      "unresolved": false,
+      "groupId": "org.checkerframework",
+      "artifactId": "checker-qual",
+      "version": "3.12.0"
+    },
+    {
+      "ideaName": "Gradle: com.google.errorprone:error_prone_annotations:2.7.1",
+      "gradleName": "com.google.errorprone:error_prone_annotations:2.7.1",
+      "unresolved": false,
+      "groupId": "com.google.errorprone",
+      "artifactId": "error_prone_annotations",
+      "version": "2.7.1"
+    },
+    {
+      "ideaName": "Gradle: com.google.j2objc:j2objc-annotations:1.3",
+      "gradleName": "com.google.j2objc:j2objc-annotations:1.3",
+      "unresolved": false,
+      "groupId": "com.google.j2objc",
+      "artifactId": "j2objc-annotations",
+      "version": "1.3"
+    },
+    {
+      "ideaName": "Gradle: net.jodah:typetools:0.8.3",
+      "gradleName": "net.jodah:typetools:0.8.3",
+      "unresolved": false,
+      "groupId": "net.jodah",
+      "artifactId": "typetools",
+      "version": "0.8.3"
+    },
+    {
+      "ideaName": "Gradle: com.github.coehlrich:EventBusTransformer:1.0.2",
+      "gradleName": "com.github.coehlrich:EventBusTransformer:1.0.2",
+      "unresolved": false,
+      "groupId": "com.github.coehlrich",
+      "artifactId": "EventBusTransformer",
+      "version": "1.0.2"
+    },
+    {
+      "ideaName": "Gradle: net.fabricmc:dev-launch-injector:0.2.1+build.8",
+      "gradleName": "net.fabricmc:dev-launch-injector:0.2.1+build.8",
+      "unresolved": false,
+      "groupId": "net.fabricmc",
+      "artifactId": "dev-launch-injector",
+      "version": "0.2.1+build.8"
+    },
+    {
+      "ideaName": "Gradle: net.minecrell:terminalconsoleappender:1.2.0",
+      "gradleName": "net.minecrell:terminalconsoleappender:1.2.0",
+      "unresolved": false,
+      "groupId": "net.minecrell",
+      "artifactId": "terminalconsoleappender",
+      "version": "1.2.0"
+    },
+    {
+      "ideaName": "Gradle: loom.resolved:mappings:1.18.2/loom.mappings.1_18_2.layered+hash.233762380-v2",
+      "gradleName": "loom.resolved:mappings:1.18.2/loom.mappings.1_18_2.layered+hash.233762380-v2",
+      "unresolved": false,
+      "groupId": "loom.resolved",
+      "artifactId": "mappings",
+      "version": "1.18.2/loom.mappings.1_18_2.layered+hash.233762380-v2"
+    },
+    {
+      "ideaName": "Gradle: org.apache.logging.log4j:log4j-core:2.17.1",
+      "gradleName": "org.apache.logging.log4j:log4j-core:2.17.1",
+      "unresolved": false,
+      "groupId": "org.apache.logging.log4j",
+      "artifactId": "log4j-core",
+      "version": "2.17.1"
+    },
+    {
+      "ideaName": "Gradle: org.apache.logging.log4j:log4j-api:2.17.1",
+      "gradleName": "org.apache.logging.log4j:log4j-api:2.17.1",
+      "unresolved": false,
+      "groupId": "org.apache.logging.log4j",
+      "artifactId": "log4j-api",
+      "version": "2.17.1"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2.me.djtheredstoner:DevAuth-fabric:1.1.0",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2.me.djtheredstoner:DevAuth-fabric:1.1.0",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2.me.djtheredstoner",
+      "artifactId": "DevAuth-fabric",
+      "version": "1.1.0"
+    },
+    {
+      "ideaName": "Gradle: me.djtheredstoner:DevAuth-common:1.1.0",
+      "gradleName": "me.djtheredstoner:DevAuth-common:1.1.0",
+      "unresolved": false,
+      "groupId": "me.djtheredstoner",
+      "artifactId": "DevAuth-common",
+      "version": "1.1.0"
+    },
+    {
+      "ideaName": "Gradle: com.electronwill.night-config:toml:3.6.5",
+      "gradleName": "com.electronwill.night-config:toml:3.6.5",
+      "unresolved": false,
+      "groupId": "com.electronwill.night-config",
+      "artifactId": "toml",
+      "version": "3.6.5"
+    },
+    {
+      "ideaName": "Gradle: com.electronwill.night-config:core:3.6.5",
+      "gradleName": "com.electronwill.night-config:core:3.6.5",
+      "unresolved": false,
+      "groupId": "com.electronwill.night-config",
+      "artifactId": "core",
+      "version": "3.6.5"
+    },
+    {
+      "ideaName": "Gradle: dev.architectury:architectury-transformer:5.2.67",
+      "gradleName": "dev.architectury:architectury-transformer:5.2.67",
+      "unresolved": false,
+      "groupId": "dev.architectury",
+      "artifactId": "architectury-transformer",
+      "version": "5.2.67"
+    },
+    {
+      "ideaName": "Gradle: cpw.mods:modlauncher:9.0.24",
+      "gradleName": "cpw.mods:modlauncher:9.0.24",
+      "unresolved": false,
+      "groupId": "cpw.mods",
+      "artifactId": "modlauncher",
+      "version": "9.0.24"
+    },
+    {
+      "ideaName": "Gradle: org.jline:jline-reader:3.12.1",
+      "gradleName": "org.jline:jline-reader:3.12.1",
+      "unresolved": false,
+      "groupId": "org.jline",
+      "artifactId": "jline-reader",
+      "version": "3.12.1"
+    },
+    {
+      "ideaName": "Gradle: cpw.mods:securejarhandler:0.9.61",
+      "gradleName": "cpw.mods:securejarhandler:0.9.61",
+      "unresolved": false,
+      "groupId": "cpw.mods",
+      "artifactId": "securejarhandler",
+      "version": "0.9.61"
+    },
+    {
+      "ideaName": "Gradle: org.jline:jline-terminal:3.12.1",
+      "gradleName": "org.jline:jline-terminal:3.12.1",
+      "unresolved": false,
+      "groupId": "org.jline",
+      "artifactId": "jline-terminal",
+      "version": "3.12.1"
+    },
+    {
+      "ideaName": "Gradle: dev.architectury:architectury-transformer:agent:5.2.67",
+      "gradleName": "dev.architectury:architectury-transformer:agent:5.2.67",
+      "unresolved": false,
+      "groupId": "dev.architectury",
+      "artifactId": "architectury-transformer",
+      "version": "5.2.67"
+    },
+    {
+      "ideaName": "Gradle: dev.architectury:architectury-transformer:runtime:5.2.67",
+      "gradleName": "dev.architectury:architectury-transformer:runtime:5.2.67",
+      "unresolved": false,
+      "groupId": "dev.architectury",
+      "artifactId": "architectury-transformer",
+      "version": "5.2.67"
+    },
+    {
+      "ideaName": "Gradle: cpw.mods:securejarhandler:1.0.3",
+      "gradleName": "cpw.mods:securejarhandler:1.0.3",
+      "unresolved": false,
+      "groupId": "cpw.mods",
+      "artifactId": "securejarhandler",
+      "version": "1.0.3"
+    },
+    {
+      "ideaName": "Gradle: net.minecraftforge:fmlloader:1.18.2-40.1.54",
+      "gradleName": "net.minecraftforge:fmlloader:1.18.2-40.1.54",
+      "unresolved": false,
+      "groupId": "net.minecraftforge",
+      "artifactId": "fmlloader",
+      "version": "1.18.2-40.1.54"
+    },
+    {
+      "ideaName": "Gradle: cpw.mods:modlauncher:9.1.3",
+      "gradleName": "cpw.mods:modlauncher:9.1.3",
+      "unresolved": false,
+      "groupId": "cpw.mods",
+      "artifactId": "modlauncher",
+      "version": "9.1.3"
+    },
+    {
+      "ideaName": "Gradle: org.openjdk.nashorn:nashorn-core:15.3",
+      "gradleName": "org.openjdk.nashorn:nashorn-core:15.3",
+      "unresolved": false,
+      "groupId": "org.openjdk.nashorn",
+      "artifactId": "nashorn-core",
+      "version": "15.3"
+    },
+    {
+      "ideaName": "Gradle: org.ow2.asm:asm-commons:9.2",
+      "gradleName": "org.ow2.asm:asm-commons:9.2",
+      "unresolved": false,
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm-commons",
+      "version": "9.2"
+    },
+    {
+      "ideaName": "Gradle: org.ow2.asm:asm-util:9.2",
+      "gradleName": "org.ow2.asm:asm-util:9.2",
+      "unresolved": false,
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm-util",
+      "version": "9.2"
+    },
+    {
+      "ideaName": "Gradle: org.ow2.asm:asm-analysis:9.2",
+      "gradleName": "org.ow2.asm:asm-analysis:9.2",
+      "unresolved": false,
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm-analysis",
+      "version": "9.2"
+    },
+    {
+      "ideaName": "Gradle: org.ow2.asm:asm-tree:9.2",
+      "gradleName": "org.ow2.asm:asm-tree:9.2",
+      "unresolved": false,
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm-tree",
+      "version": "9.2"
+    },
+    {
+      "ideaName": "Gradle: org.ow2.asm:asm:9.2",
+      "gradleName": "org.ow2.asm:asm:9.2",
+      "unresolved": false,
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm",
+      "version": "9.2"
+    },
+    {
+      "ideaName": "Gradle: net.minecraftforge:accesstransformers:8.0.4",
+      "gradleName": "net.minecraftforge:accesstransformers:8.0.4",
+      "unresolved": false,
+      "groupId": "net.minecraftforge",
+      "artifactId": "accesstransformers",
+      "version": "8.0.4"
+    },
+    {
+      "ideaName": "Gradle: org.antlr:antlr4-runtime:4.9.1",
+      "gradleName": "org.antlr:antlr4-runtime:4.9.1",
+      "unresolved": false,
+      "groupId": "org.antlr",
+      "artifactId": "antlr4-runtime",
+      "version": "4.9.1"
+    },
+    {
+      "ideaName": "Gradle: net.minecraftforge:fmlcore:1.18.2-40.1.54",
+      "gradleName": "net.minecraftforge:fmlcore:1.18.2-40.1.54",
+      "unresolved": false,
+      "groupId": "net.minecraftforge",
+      "artifactId": "fmlcore",
+      "version": "1.18.2-40.1.54"
+    },
+    {
+      "ideaName": "Gradle: net.minecraftforge:forgespi:4.0.15-4.x",
+      "gradleName": "net.minecraftforge:forgespi:4.0.15-4.x",
+      "unresolved": false,
+      "groupId": "net.minecraftforge",
+      "artifactId": "forgespi",
+      "version": "4.0.15-4.x"
+    },
+    {
+      "ideaName": "Gradle: net.minecraftforge:coremods:5.0.2",
+      "gradleName": "net.minecraftforge:coremods:5.0.2",
+      "unresolved": false,
+      "groupId": "net.minecraftforge",
+      "artifactId": "coremods",
+      "version": "5.0.2"
+    },
+    {
+      "ideaName": "Gradle: net.minecraftforge:unsafe:0.2.0",
+      "gradleName": "net.minecraftforge:unsafe:0.2.0",
+      "unresolved": false,
+      "groupId": "net.minecraftforge",
+      "artifactId": "unsafe",
+      "version": "0.2.0"
+    },
+    {
+      "ideaName": "Gradle: com.electronwill.night-config:toml:3.6.4",
+      "gradleName": "com.electronwill.night-config:toml:3.6.4",
+      "unresolved": false,
+      "groupId": "com.electronwill.night-config",
+      "artifactId": "toml",
+      "version": "3.6.4"
+    },
+    {
+      "ideaName": "Gradle: com.electronwill.night-config:core:3.6.4",
+      "gradleName": "com.electronwill.night-config:core:3.6.4",
+      "unresolved": false,
+      "groupId": "com.electronwill.night-config",
+      "artifactId": "core",
+      "version": "3.6.4"
+    },
+    {
+      "ideaName": "Gradle: org.apache.maven:maven-artifact:3.8.1",
+      "gradleName": "org.apache.maven:maven-artifact:3.8.1",
+      "unresolved": false,
+      "groupId": "org.apache.maven",
+      "artifactId": "maven-artifact",
+      "version": "3.8.1"
+    },
+    {
+      "ideaName": "Gradle: dev.architectury:mixin-patched:0.8.5.7",
+      "gradleName": "dev.architectury:mixin-patched:0.8.5.7",
+      "unresolved": false,
+      "groupId": "dev.architectury",
+      "artifactId": "mixin-patched",
+      "version": "0.8.5.7"
+    },
+    {
+      "ideaName": "Gradle: cpw.mods:bootstraplauncher:1.0.0",
+      "gradleName": "cpw.mods:bootstraplauncher:1.0.0",
+      "unresolved": false,
+      "groupId": "cpw.mods",
+      "artifactId": "bootstraplauncher",
+      "version": "1.0.0"
+    },
+    {
+      "ideaName": "Gradle: net.minecraftforge:javafmllanguage:1.18.2-40.1.54",
+      "gradleName": "net.minecraftforge:javafmllanguage:1.18.2-40.1.54",
+      "unresolved": false,
+      "groupId": "net.minecraftforge",
+      "artifactId": "javafmllanguage",
+      "version": "1.18.2-40.1.54"
+    },
+    {
+      "ideaName": "Gradle: net.minecraftforge:lowcodelanguage:1.18.2-40.1.54",
+      "gradleName": "net.minecraftforge:lowcodelanguage:1.18.2-40.1.54",
+      "unresolved": false,
+      "groupId": "net.minecraftforge",
+      "artifactId": "lowcodelanguage",
+      "version": "1.18.2-40.1.54"
+    },
+    {
+      "ideaName": "Gradle: net.minecraftforge:mclanguage:1.18.2-40.1.54",
+      "gradleName": "net.minecraftforge:mclanguage:1.18.2-40.1.54",
+      "unresolved": false,
+      "groupId": "net.minecraftforge",
+      "artifactId": "mclanguage",
+      "version": "1.18.2-40.1.54"
+    },
+    {
+      "ideaName": "Gradle: dev.architectury:architectury-loom-runtime:1.1.3",
+      "gradleName": "dev.architectury:architectury-loom-runtime:1.1.3",
+      "unresolved": false,
+      "groupId": "dev.architectury",
+      "artifactId": "architectury-loom-runtime",
+      "version": "1.1.3"
+    },
+    {
+      "ideaName": "Gradle: io.github.juuxel:unprotect:1.2.0",
+      "gradleName": "io.github.juuxel:unprotect:1.2.0",
+      "unresolved": false,
+      "groupId": "io.github.juuxel",
+      "artifactId": "unprotect",
+      "version": "1.2.0"
+    },
+    {
+      "ideaName": "Gradle: net.minecraft:forge-1.18.2-40.1.54-minecraft-project-@forge-merged-named:1.18.2/loom.mappings.1_18_2.layered+hash.233762380-v2-forge-1.18.2-40.1.54",
+      "gradleName": "net.minecraft:forge-1.18.2-40.1.54-minecraft-project-@forge-merged-named:1.18.2/loom.mappings.1_18_2.layered+hash.233762380-v2-forge-1.18.2-40.1.54",
+      "unresolved": false,
+      "groupId": "net.minecraft",
+      "artifactId": "forge-1.18.2-40.1.54-minecraft-project-@forge-merged-named",
+      "version": "1.18.2/loom.mappings.1_18_2.layered+hash.233762380-v2-forge-1.18.2-40.1.54"
+    },
+    {
+      "ideaName": "Gradle: org.antlr:antlr4:4.9.1",
+      "gradleName": "org.antlr:antlr4:4.9.1",
+      "unresolved": false,
+      "groupId": "org.antlr",
+      "artifactId": "antlr4",
+      "version": "4.9.1"
+    },
+    {
+      "ideaName": "Gradle: org.codehaus.plexus:plexus-utils:3.2.1",
+      "gradleName": "org.codehaus.plexus:plexus-utils:3.2.1",
+      "unresolved": false,
+      "groupId": "org.codehaus.plexus",
+      "artifactId": "plexus-utils",
+      "version": "3.2.1"
+    },
+    {
+      "ideaName": "Gradle: org.antlr:ST4:4.3",
+      "gradleName": "org.antlr:ST4:4.3",
+      "unresolved": false,
+      "groupId": "org.antlr",
+      "artifactId": "ST4",
+      "version": "4.3"
+    },
+    {
+      "ideaName": "Gradle: org.antlr:antlr-runtime:3.5.2",
+      "gradleName": "org.antlr:antlr-runtime:3.5.2",
+      "unresolved": false,
+      "groupId": "org.antlr",
+      "artifactId": "antlr-runtime",
+      "version": "3.5.2"
+    },
+    {
+      "ideaName": "Gradle: org.abego.treelayout:org.abego.treelayout.core:1.0.3",
+      "gradleName": "org.abego.treelayout:org.abego.treelayout.core:1.0.3",
+      "unresolved": false,
+      "groupId": "org.abego.treelayout",
+      "artifactId": "org.abego.treelayout.core",
+      "version": "1.0.3"
+    },
+    {
+      "ideaName": "Gradle: org.glassfish:javax.json:1.0.4",
+      "gradleName": "org.glassfish:javax.json:1.0.4",
+      "unresolved": false,
+      "groupId": "org.glassfish",
+      "artifactId": "javax.json",
+      "version": "1.0.4"
+    },
+    {
+      "ideaName": "Gradle: cpw.mods:securejarhandler:1.0.5",
+      "gradleName": "cpw.mods:securejarhandler:1.0.5",
+      "unresolved": false,
+      "groupId": "cpw.mods",
+      "artifactId": "securejarhandler",
+      "version": "1.0.5"
+    },
+    {
+      "ideaName": "Gradle: loom.resolved:mappings:1.18.2/loom.mappings.1_18_2.layered+hash.233762380-v2-forge-1.18.2-40.1.54",
+      "gradleName": "loom.resolved:mappings:1.18.2/loom.mappings.1_18_2.layered+hash.233762380-v2-forge-1.18.2-40.1.54",
+      "unresolved": false,
+      "groupId": "loom.resolved",
+      "artifactId": "mappings",
+      "version": "1.18.2/loom.mappings.1_18_2.layered+hash.233762380-v2-forge-1.18.2-40.1.54"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_forge_1_18_2_40_1_54_forge.me.djtheredstoner:DevAuth-forge-latest:1.1.0",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_forge_1_18_2_40_1_54_forge.me.djtheredstoner:DevAuth-forge-latest:1.1.0",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_forge_1_18_2_40_1_54_forge.me.djtheredstoner",
+      "artifactId": "DevAuth-forge-latest",
+      "version": "1.1.0"
+    },
+    {
+      "ideaName": "Gradle: net.fabricmc:sponge-mixin:0.11.2+mixin.0.8.5",
+      "gradleName": "net.fabricmc:sponge-mixin:0.11.2+mixin.0.8.5",
+      "unresolved": false,
+      "groupId": "net.fabricmc",
+      "artifactId": "sponge-mixin",
+      "version": "0.11.2+mixin.0.8.5"
+    },
+    {
+      "ideaName": "Gradle: net.fabricmc:tiny-remapper:0.8.1",
+      "gradleName": "net.fabricmc:tiny-remapper:0.8.1",
+      "unresolved": false,
+      "groupId": "net.fabricmc",
+      "artifactId": "tiny-remapper",
+      "version": "0.8.1"
+    },
+    {
+      "ideaName": "Gradle: org.quiltmc:quilt-json5:1.0.1",
+      "gradleName": "org.quiltmc:quilt-json5:1.0.1",
+      "unresolved": false,
+      "groupId": "org.quiltmc",
+      "artifactId": "quilt-json5",
+      "version": "1.0.1"
+    },
+    {
+      "ideaName": "Gradle: org.quiltmc:quilt-config:1.0.0-beta.4",
+      "gradleName": "org.quiltmc:quilt-config:1.0.0-beta.4",
+      "unresolved": false,
+      "groupId": "org.quiltmc",
+      "artifactId": "quilt-config",
+      "version": "1.0.0-beta.4"
+    },
+    {
+      "ideaName": "Gradle: net.minecraft:minecraft-project-@quilt-merged-named:1.18.2/loom.mappings.1_18_2.layered+hash.233762380-v2",
+      "gradleName": "net.minecraft:minecraft-project-@quilt-merged-named:1.18.2/loom.mappings.1_18_2.layered+hash.233762380-v2",
+      "unresolved": false,
+      "groupId": "net.minecraft",
+      "artifactId": "minecraft-project-@quilt-merged-named",
+      "version": "1.18.2/loom.mappings.1_18_2.layered+hash.233762380-v2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:quilted-fabric-api:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:quilted-fabric-api:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "quilted-fabric-api",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.block:block_extensions:1.1.0-beta.17+1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.block:block_extensions:1.1.0-beta.17+1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.block",
+      "artifactId": "block_extensions",
+      "version": "1.1.0-beta.17+1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.core:crash_info:1.1.0-beta.17+1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.core:crash_info:1.1.0-beta.17+1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.core",
+      "artifactId": "crash_info",
+      "version": "1.1.0-beta.17+1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.data:registry_entry_attachments:1.1.0-beta.17+1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.data:registry_entry_attachments:1.1.0-beta.17+1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.data",
+      "artifactId": "registry_entry_attachments",
+      "version": "1.1.0-beta.17+1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.core:networking:1.1.0-beta.17+1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.core:networking:1.1.0-beta.17+1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.core",
+      "artifactId": "networking",
+      "version": "1.1.0-beta.17+1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.data:tags:1.1.0-beta.17+1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.data:tags:1.1.0-beta.17+1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.data",
+      "artifactId": "tags",
+      "version": "1.1.0-beta.17+1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.core:lifecycle_events:1.1.0-beta.17+1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.core:lifecycle_events:1.1.0-beta.17+1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.core",
+      "artifactId": "lifecycle_events",
+      "version": "1.1.0-beta.17+1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.core:registry:1.1.0-beta.17+1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.core:registry:1.1.0-beta.17+1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.core",
+      "artifactId": "registry",
+      "version": "1.1.0-beta.17+1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.item:item_group:1.1.0-beta.17+1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.item:item_group:1.1.0-beta.17+1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.item",
+      "artifactId": "item_group",
+      "version": "1.1.0-beta.17+1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.management:command:1.1.0-beta.17+1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.management:command:1.1.0-beta.17+1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.management",
+      "artifactId": "command",
+      "version": "1.1.0-beta.17+1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.core:resource_loader:1.1.0-beta.17+1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.core:resource_loader:1.1.0-beta.17+1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.core",
+      "artifactId": "resource_loader",
+      "version": "1.1.0-beta.17+1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.data:recipe:1.1.0-beta.17+1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.data:recipe:1.1.0-beta.17+1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.data",
+      "artifactId": "recipe",
+      "version": "1.1.0-beta.17+1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.gui:screen:1.1.0-beta.17+1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.gui:screen:1.1.0-beta.17+1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.gui",
+      "artifactId": "screen",
+      "version": "1.1.0-beta.17+1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.gui:tooltip:1.1.0-beta.17+1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.gui:tooltip:1.1.0-beta.17+1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.gui",
+      "artifactId": "tooltip",
+      "version": "1.1.0-beta.17+1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.item:item_setting:1.1.0-beta.17+1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.item:item_setting:1.1.0-beta.17+1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.item",
+      "artifactId": "item_setting",
+      "version": "1.1.0-beta.17+1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.management:client_command:1.1.0-beta.17+1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.management:client_command:1.1.0-beta.17+1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.management",
+      "artifactId": "client_command",
+      "version": "1.1.0-beta.17+1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.worldgen:biome:1.1.0-beta.17+1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.worldgen:biome:1.1.0-beta.17+1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.worldgen",
+      "artifactId": "biome",
+      "version": "1.1.0-beta.17+1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.worldgen:dimension:1.1.0-beta.17+1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.worldgen:dimension:1.1.0-beta.17+1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.worldgen",
+      "artifactId": "dimension",
+      "version": "1.1.0-beta.17+1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.core:qsl_base:1.1.0-beta.17+1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.core:qsl_base:1.1.0-beta.17+1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.qsl.core",
+      "artifactId": "qsl_base",
+      "version": "1.1.0-beta.17+1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-transfer-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-transfer-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-transfer-api-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-api-lookup-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-api-lookup-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-api-lookup-api-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-blockrenderlayer-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-blockrenderlayer-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-blockrenderlayer-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-commands-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-commands-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-commands-v0",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-command-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-command-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-command-api-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-containers-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-containers-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-containers-v0",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-content-registries-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-content-registries-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-content-registries-v0",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-convention-tags-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-convention-tags-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-convention-tags-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-data-generation-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-data-generation-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-data-generation-api-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-dimensions-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-dimensions-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-dimensions-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-entity-events-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-entity-events-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-entity-events-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-events-interaction-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-events-interaction-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-events-interaction-v0",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-events-lifecycle-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-events-lifecycle-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-events-lifecycle-v0",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-gametest-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-gametest-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-gametest-api-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-item-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-item-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-item-api-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-item-groups-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-item-groups-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-item-groups-v0",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-lifecycle-events-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-lifecycle-events-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-lifecycle-events-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-loot-tables-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-loot-tables-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-loot-tables-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-loot-api-v2:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-loot-api-v2:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-loot-api-v2",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-mining-level-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-mining-level-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-mining-level-api-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-models-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-models-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-models-v0",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-networking-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-networking-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-networking-v0",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-registry-sync-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-registry-sync-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-registry-sync-v0",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-screen-handler-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-screen-handler-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-screen-handler-api-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-networking-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-networking-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-networking-api-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-object-builder-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-object-builder-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-object-builder-api-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-particles-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-particles-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-particles-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-renderer-indigo:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-renderer-indigo:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-renderer-indigo",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-renderer-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-renderer-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-renderer-api-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-renderer-registries-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-renderer-registries-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-renderer-registries-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-rendering-data-attachment-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-rendering-data-attachment-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-rendering-data-attachment-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-rendering-fluids-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-rendering-fluids-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-rendering-fluids-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-rendering-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-rendering-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-rendering-v0",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-rendering-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-rendering-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-rendering-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-screen-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-screen-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-screen-api-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-textures-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-textures-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-textures-v0",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-api-base:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-api-base:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-api-base",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-biome-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-biome-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-biome-api-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-crash-report-info-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-crash-report-info-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-crash-report-info-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-game-rule-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-game-rule-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-game-rule-api-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-keybindings-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-keybindings-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-keybindings-v0",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-key-binding-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-key-binding-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-key-binding-api-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-resource-conditions-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-resource-conditions-api-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-resource-conditions-api-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-resource-loader-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-resource-loader-v0:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-resource-loader-v0",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-transitive-access-wideners-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-transitive-access-wideners-v1:1.0.0-beta.19+0.55.1-1.18.2",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc.quilted-fabric-api",
+      "artifactId": "fabric-transitive-access-wideners-v1",
+      "version": "1.0.0-beta.19+0.55.1-1.18.2"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc:quilt-loader:0.17.0",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc:quilt-loader:0.17.0",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.org.quiltmc",
+      "artifactId": "quilt-loader",
+      "version": "0.17.0"
+    },
+    {
+      "ideaName": "Gradle: loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.me.djtheredstoner:DevAuth-fabric:1.1.0",
+      "gradleName": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.me.djtheredstoner:DevAuth-fabric:1.1.0",
+      "unresolved": false,
+      "groupId": "loom_mappings_1_18_2_layered_hash_233762380_v2_arch_quilt.me.djtheredstoner",
+      "artifactId": "DevAuth-fabric",
+      "version": "1.1.0"
+    },
+    {
+      "ideaName": "Gradle: net.minecraft:minecraft-project-@common-merged-named:1.18.2/loom.mappings.1_18_2.layered+hash.233762380-v2",
+      "gradleName": "net.minecraft:minecraft-project-@common-merged-named:1.18.2/loom.mappings.1_18_2.layered+hash.233762380-v2",
+      "unresolved": false,
+      "groupId": "net.minecraft",
+      "artifactId": "minecraft-project-@common-merged-named",
+      "version": "1.18.2/loom.mappings.1_18_2.layered+hash.233762380-v2"
+    },
+    {
+      "ideaName": "Gradle: dev.architectury:architectury-injectables:1.0.10",
+      "gradleName": "dev.architectury:architectury-injectables:1.0.10",
+      "unresolved": false,
+      "groupId": "dev.architectury",
+      "artifactId": "architectury-injectables",
+      "version": "1.0.10"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "modules": [
+    {
+      "name": "Wynntils",
+      "languageLevel": 17
+    },
+    {
+      "name": "Wynntils.common",
+      "languageLevel": 17
+    },
+    {
+      "name": "Wynntils.fabric",
+      "languageLevel": 17
+    },
+    {
+      "name": "Wynntils.forge",
+      "languageLevel": 17
+    },
+    {
+      "name": "Wynntils.quilt",
+      "languageLevel": 17
+    },
+    {
+      "name": "Wynntils.test",
+      "languageLevel": 17
+    },
+    {
+      "name": "Wynntils.main",
+      "languageLevel": 17
+    },
+    {
+      "name": "Wynntils.common.test",
+      "languageLevel": 17
+    },
+    {
+      "name": "Wynntils.common.main",
+      "languageLevel": 17
+    },
+    {
+      "name": "Wynntils.fabric.test",
+      "languageLevel": 17
+    },
+    {
+      "name": "Wynntils.fabric.main",
+      "languageLevel": 17
+    },
+    {
+      "name": "Wynntils.forge.test",
+      "languageLevel": 17
+    },
+    {
+      "name": "Wynntils.forge.main",
+      "languageLevel": 17
+    },
+    {
+      "name": "Wynntils.quilt.test",
+      "languageLevel": 17
+    },
+    {
+      "name": "Wynntils.quilt.main",
+      "languageLevel": 17
+    }
+  ]
+}
