@@ -31,8 +31,7 @@ jobs:
           REPO: ${{ github.repository }}
           SUMMARY_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          cat $GITHUB_STEP_SUMMARY
-          cat $GITHUB_STEP_SUMMARY >> $TESTCOVERAGE
+          TESTCOVERAGE = $(cat $GITHUB_STEP_SUMMARY)
           curl \
             -X POST \
             -H "Accept: application/vnd.github.v3+json" \
