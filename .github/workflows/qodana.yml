@@ -37,7 +37,7 @@ jobs:
           SUMMARY_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           npm install @security-alert/sarif-to-comment
-          GITHUB-TOKEN=${{ secrets.GITHUB_TOKEN }} npx @security-alert/sarif-to-comment ${{ runner.temp }}/qodana/results/qodana.sarif.json --comment-url "https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }}" --sarifContentOwner "owner" --sarifContentRepo "repo" --sarifContentBranch "master"
+          npx @security-alert/sarif-to-comment --token "${{ secrets.GITHUB_TOKEN }}" --comment-url "https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }}" --sarifContentOwner "owner" --sarifContentRepo "repo" --sarifContentBranch "master" "${{ runner.temp }}/qodana/results/qodana.sarif.json"
           curl \
             -X POST \
             -H "Accept: application/vnd.github.v3+json" \
