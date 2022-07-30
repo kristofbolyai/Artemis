@@ -36,4 +36,4 @@ jobs:
             -H "Accept: application/vnd.github.v3+json" \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             https://api.github.com/repos/$REPO/issues/$PR_NUMBER/comments \
-            -d '{"body":"# Job Summary\n'$SUMMARY_URL'\n'$GITHUB_STEP_SUMMARY'\n"}'
+            -d '{"body":"# Qodana code review\n'$(cat $GITHUB_STEP_SUMMARY)'\nSee more at: '$SUMMARY_URL'\n"}'
