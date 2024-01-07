@@ -1,9 +1,21 @@
+## [1.0.0](https://github.com/kristofbolyai/Artemis/compare/v0.2.1...v1.0.0) (2024-01-07)
+
+
+### Miscellaneous Chores
+
+* **bump-mc:** bumped mc version, new major version ([b88bbcc](https://github.com/kristofbolyai/Artemis/commit/b88bbcc3514c4e3765dfde5c6db2642767d1ce33))
+
 ## [0.2.1](https://github.com/kristofbolyai/Artemis/compare/v0.2.0...v0.2.1) (2024-01-07)
 
 
 ### New Features
 
 * this is a normal feature, patch [#2](https://github.com/kristofbolyai/Artemis/issues/2) ([5f1ec92](https://github.com/kristofbolyai/Artemis/commit/5f1ec924f13b546aa76006861886d12effa21d97))
+
+
+### Miscellaneous Chores
+
+* **release:** v0.2.1 [skip ci] ([53c0c2f](https://github.com/kristofbolyai/Artemis/commit/53c0c2f7c7739fb4c0f83fd644658625ef65ea3a))
 
 ## [0.2.0](https://github.com/kristofbolyai/Artemis/compare/v0.1.1...v0.2.0) (2024-01-07)
 
