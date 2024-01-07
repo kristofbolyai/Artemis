@@ -1,9 +1,25 @@
+## [0.2.0](https://github.com/kristofbolyai/Artemis/compare/v0.1.1...v0.2.0) (2024-01-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* this is a major fix, minor
+
+### Bug Fixes
+
+* this is a major fix, minor ([f739d51](https://github.com/kristofbolyai/Artemis/commit/f739d51f21ffab0202cb3efecfbb7d0617f9703e))
+
 ## [0.1.1](https://github.com/kristofbolyai/Artemis/compare/v0.1.0...v0.1.1) (2024-01-07)
 
 
 ### New Features
 
 * this is a normal feature, patch ([6b5807d](https://github.com/kristofbolyai/Artemis/commit/6b5807d1a432c37e10c22088e920bbeb9f30748e))
+
+
+### Miscellaneous Chores
+
+* **release:** v0.1.1 [skip ci] ([e7ffa8d](https://github.com/kristofbolyai/Artemis/commit/e7ffa8d7d626e4298ce49615aa0ac68e2034764e))
 
 ## [0.1.0](https://github.com/kristofbolyai/Artemis/compare/6abddd05f549da37a7df4b46c053d32beb6d8d4b...v0.1.0) (2024-01-07)
 
