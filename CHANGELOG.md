@@ -1,4 +1,11 @@
-## 0.1.0 (2024-01-07)
+## [0.1.1](https://github.com/kristofbolyai/Artemis/compare/v0.1.0...v0.1.1) (2024-01-07)
+
+
+### New Features
+
+* this is a normal feature, patch ([6b5807d](https://github.com/kristofbolyai/Artemis/commit/6b5807d1a432c37e10c22088e920bbeb9f30748e))
+
+## [0.1.0](https://github.com/kristofbolyai/Artemis/compare/6abddd05f549da37a7df4b46c053d32beb6d8d4b...v0.1.0) (2024-01-07)
 
 
 ### ⚠ BREAKING CHANGES
@@ -1175,6 +1182,7 @@ Co-authored-by: Kristof Kovacs <49001742+kristofbolyai@users.noreply.github.com>
 * Release 1.20.2 port ([#2147](https://github.com/kristofbolyai/Artemis/issues/2147)) ([40bb19d](https://github.com/kristofbolyai/Artemis/commit/40bb19d48008aa586bee9a3d98d2287feaac4c30))
 * Release 1.20.2 port [#2](https://github.com/kristofbolyai/Artemis/issues/2) ([c4581ff](https://github.com/kristofbolyai/Artemis/commit/c4581ffedfe0dcf71b4d30806ee7c262a2597a79))
 * Release new version for Wynncraft 2.0.4 ([c88b994](https://github.com/kristofbolyai/Artemis/commit/c88b994c181dd18abf95bf33fc8a9def30c52e7a))
+* **release:** v0.1.0 [skip ci] ([696b9bd](https://github.com/kristofbolyai/Artemis/commit/696b9bd969906521575d1754c99a973551818682))
 * Remove account type config ([#551](https://github.com/kristofbolyai/Artemis/issues/551)) ([1afdabc](https://github.com/kristofbolyai/Artemis/commit/1afdabca4fc35e1f5361a84fedd875de20b4dfbb))
 * remove check for forks ([#103](https://github.com/kristofbolyai/Artemis/issues/103)) ([01096f0](https://github.com/kristofbolyai/Artemis/commit/01096f0b08ef23f14bd8781ecbedf1f07cdf52cc))
 * remove Debugify from the incompatible mod list (experimentally) ([#2247](https://github.com/kristofbolyai/Artemis/issues/2247)) ([410a210](https://github.com/kristofbolyai/Artemis/commit/410a210778844172585033e4eae1a61597021988))
