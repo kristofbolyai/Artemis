@@ -17,12 +17,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import net.minecraft.resources.ResourceLocation;
-import net.neoforged.bus.api.SubscribeEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 public final class ActionBarHandler extends Handler {
-    private static final ResourceLocation ACTION_BAR_FONT = ResourceLocation.withDefaultNamespace("hud/default/center");
-    private static final ResourceLocation COORDINATES_FONT =
-            ResourceLocation.withDefaultNamespace("hud/default/top_right");
+    private static final ResourceLocation ACTION_BAR_FONT = new ResourceLocation("minecraft:hud/default/center");
+    private static final ResourceLocation COORDINATES_FONT = new ResourceLocation("minecraft:hud/default/top_right");
 
     private static final FallBackSegmentMatcher FALLBACK_SEGMENT_MATCHER = new FallBackSegmentMatcher();
 

@@ -14,7 +14,7 @@ import com.wynntils.features.map.MinimapFeature;
 import com.wynntils.handlers.actionbar.event.ActionBarRenderEvent;
 import com.wynntils.utils.render.type.HorizontalAlignment;
 import com.wynntils.utils.render.type.VerticalAlignment;
-import net.neoforged.bus.api.SubscribeEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 public class CoordinateOverlay extends TextOverlay {
     private static final String TEMPLATE = "{x(my_loc):0} {y(my_loc):0} {z(my_loc):0}";

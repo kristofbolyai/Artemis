@@ -28,7 +28,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.world.item.ItemStack;
-import net.neoforged.bus.api.SubscribeEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import org.lwjgl.glfw.GLFW;
 
 @ConfigCategory(Category.INVENTORY)
@@ -156,7 +156,7 @@ public class PersonalStorageUtilitiesFeature extends Feature {
         if (storageContainer.getQuickJumpDestinations().contains(pageDestination)) {
             target = storageContainer.getQuickJumpDestinations().indexOf(pageDestination);
         } else {
-            int closest = storageContainer.getQuickJumpDestinations().getFirst();
+            int closest = storageContainer.getQuickJumpDestinations().get(0);
 
             for (int destination : storageContainer.getQuickJumpDestinations()) {
                 if (Math.abs(pageDestination - destination) < Math.abs(pageDestination - closest)) {

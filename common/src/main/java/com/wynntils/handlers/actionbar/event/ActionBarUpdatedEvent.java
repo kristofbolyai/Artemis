@@ -8,7 +8,7 @@ import com.wynntils.handlers.actionbar.ActionBarSegment;
 import java.util.Collections;
 import java.util.List;
 import java.util.function.Consumer;
-import net.neoforged.bus.api.Event;
+import net.minecraftforge.eventbus.api.Event;
 
 /**
  * Fired when the action bar is updated. This event can be used for update hooks for various segments.
