@@ -231,6 +231,7 @@ public final class FriendsModel extends Model {
      */
     public void requestData() {
         if (McUtils.player() == null) return;
+        if (true) return;
 
         if (System.currentTimeMillis() - lastFriendRequest > REQUEST_RATELIMIT) {
             friendMessageStatus = ListStatus.EXPECTING;

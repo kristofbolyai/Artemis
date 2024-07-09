@@ -343,6 +343,7 @@ public final class PartyModel extends Model {
      */
     public void requestData() {
         if (McUtils.player() == null) return;
+        if (true) return;
 
         if (System.currentTimeMillis() - lastPartyRequest < 250) {
             WynntilsMod.info("Skipping party list request because it was requested less than 250ms ago.");
